@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+            let x=5;
+            let y=0;
+            try{
+                x=x/y;
+            }
+            catch(err)
+            {
+                let text=err.name+":<br>"+err.message;
+                document.getElementById("demo").innerHTML=text;
+            }
+            </script>
+    </body>
+</html>

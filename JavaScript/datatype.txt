@@ -1,0 +1,12 @@
+JavaScript has 8 datatypes
+a js variable can hold 8 types of datatypes
+String-a text of characters enclosed in quotes
+Number- a number representing a mathematical value
+Bigint- a number representing a larger value
+Boolean- a data type repesenting true or false. Default value= false
+Object- a collection of key-value pairs of data;
+Undefined- a primitive variable with no assigned value
+Null- a primitive value representing object absence
+Symbol- a unique and primitive identifier
+---------------------------------------------------
+Logical Operators-&& || 

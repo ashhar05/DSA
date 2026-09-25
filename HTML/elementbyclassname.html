@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>JavaScript HTML DOM</h2>
+
+        <p>finding HTML elements by class name</p>
+        <p class="intro">this example demonstates the <b>getElementsByClassName</b></p>
+        <p class="intro">hellow world</p>
+        <p id="demo"></p>
+        <script>
+         const x = document.getElementsByClassName("intro");
+
+        document.getElementById("demo").innerHTML =
+            "The first paragraph is: " + x[0].innerHTML;
+    </body>
+</html>

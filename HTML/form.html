@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>HTML FORM</h2>
+
+    <form action="/action_page.php">
+
+        <!-- First Name -->
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John">
+        <br><br>
+
+        <!-- Last Name -->
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe">
+        <br><br>
+
+        <!-- Checkbox -->
+        <label for="automobile">Bike</label><br>
+        <input type="checkbox" id="automobile" name="automobile" value="BIKE">
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+        <hr>
+
+        <!-- Textarea -->
+        <textarea name="message" rows="10" cols="30">
+The cat is playing in the garden.
+        </textarea>
+
+        <hr>
+
+        <!-- Username -->
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" value="username">
+        <br><br>
+
+        <!-- Password -->
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+        <br>
+
+        <hr>
+
+        <!-- Reset Button -->
+        <input type="reset" value="Reset">
+        <br><br>
+
+        <!-- Button -->
+        <input type="button" onclick="alert('Hello World')" value="Click Me!!">
+        <br>
+
+        <hr>
+
+        <!-- Color Picker -->
+        <label for="favcolor">Select your favourite color:</label><br>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <br>
+
+        <hr>
+
+        <!-- Birthday -->
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+
+        <hr>
+
+        <!-- Minimum Date -->
+        <label for="datemin">Date after 2020-01-01:</label><br>
+        <input type="date" id="datemin" name="datemin" min="2020-01-01">
+        <br>
+
+        <hr>
+
+        <!-- Date and Time -->
+        <label for="birthdaytime">Birthday Time:</label><br>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <br>
+
+        <hr>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="email">
+        <br><br>
+
+        <!-- File Upload -->
+        <label for="myfile">Select a file:</label><br>
+        <input type="file" id="myfile" name="myfile">
+        <br>
+
+        <hr>
+
+    </form>
+
+    <p>Click the submit button to submit.</p>
+
+</body>
+
+</html>

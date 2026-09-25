@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo">
+
+        </p>
+         <p id="demo1">
+
+        </p>
+        <script>
+            let day;
+            let date= new Date().getDay();//returns the day of the week (0-6) for the specified date according to local time.
+            switch (date) {
+                case 0:
+                    day="Sunday";
+                    break;
+                case 1:
+                    day="Monday";
+                    break;
+                case 2:
+                    day="Tuesday";
+                    break;  
+                case 3:
+                    day="Wednesday";
+                    break;
+                case 4:
+                    day="Thursday";
+                    break;
+                case 5:
+                    day="Friday";
+                    break;
+                case 6:
+                    day="Saturday";
+            }
+            let x=12;
+            let y=13;
+            document.getElementById("demo1").innerHTML=(x<10 && y>1)+"<br>"+(x<10 || y>1)+"<br>"+(x<10 && y>1)+"<br>"+(x<10 || y>1);
+            document.getElementById("demo").innerHTML=day;
+        </script>
+    </body>

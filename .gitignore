@@ -1,0 +1,23 @@
+# VS Code
+
+.vscode/
+
+# macOS
+
+.DS_Store
+
+# C++ compiled files
+
+*.out
+
+*.exe
+
+*.o
+
+# Executables
+
+a.out
+
+# Temporary files
+
+*.tmp

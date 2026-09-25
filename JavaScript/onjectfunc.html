@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+            //create an empty object
+            const person={;
+            //add properties to the object
+            person.firstName="John";
+            person.lastName="Doe";
+            person.age=30;
+            fullname: function() {
+                return this.firstName + " " + this.lastName;
+            }
+        };
+            // display the value of the object
+            document.getElementById("demo").innerHTML = person.fullname();
+        </script>
+    </body>
+</html>

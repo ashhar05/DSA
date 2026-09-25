@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>HTML DOM Events</h1>
+        <h2>the oncut event</h2>
+        <input type="text" oncut="myFunction()"value="try to cut this text">
+        <p id="demo"></p>
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "you cut the text";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>JavaScript Errors</h1>
+        <h2>The TypeError</h2>
+        <p id="demo"></p>
+        <script>
+            let anna=5;
+            try{
+                anna.toUpperCase();
+            }
+            catch(err)
+            {
+                let text=err.name+":<br>"+err.message;
+                document.getElementById("demo").innerHTML=text;
+            }
+        </script>
+    </body>
+</html>

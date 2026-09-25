@@ -1,0 +1,5 @@
+Hello Students
+Welcome to Python File Handling
+lines 1
+Lines2
+lines 3

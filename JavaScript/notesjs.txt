@@ -1,0 +1,2 @@
+typeof return the datatype of the variable
+eg- typeof"ashhar" returns String
