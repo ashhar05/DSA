@@ -1,0 +1,25 @@
+//we need to find the number with given sum and length
+//and then we need to find the maximum square of digits of that number
+//and to find the maximum square of digits we need the largest possible digits in that number
+string maxSumOfSquares(int num, int sum) {
+        if(sum>9*num)//maximum sum for 3 digit is 999 =3*3 =27
+        return "";
+        string ans;
+        while(num>0)//generating the maximum possible number with given sum and length
+        {
+            if(sum>9)
+            {
+                sum-=9;
+                num--;
+                ans+='9';
+            }
+            else
+            {
+                string temp=to_string(sum);
+                sum-=sum;
+                num--;
+                ans+=temp;
+            }
+        }
+        return ans;
+    }
