@@ -1,0 +1,5 @@
+f=0open("file.txt","w")
+f.write("Hello, World!")
+f.write("\nThis is a test file.")
+f.close()
+print(type(f))

@@ -1,0 +1,6 @@
+f=open("file.txt","r")
+print(f.name)
+print(f.mode)
+print("before closing the file", f.is_closed())
+f.close()
+print("after closing the file", f.is_closed())
