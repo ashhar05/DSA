@@ -1,0 +1,10 @@
+import os
+
+filename=input("Enter the file name: ")
+
+if os.path.isfile(filename):
+    print("File is available.")
+    with open(filename, "r") as file:
+        print(file.read())
+else:
+    print("File is not available.")
